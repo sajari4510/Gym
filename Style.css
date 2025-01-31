@@ -30,6 +30,7 @@ body {
     border-radius: 10px;
     display: inline-block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: left; /* Esto asegura que las etiquetas y los campos estén alineados a la izquierda */
 }
 
 .login-form h2 {
@@ -52,6 +53,7 @@ body {
     color: white;
 }
 
+/* El botón de "Entrar" */
 .login-form button {
     padding: 10px 20px;
     background-color: #007BFF;
@@ -60,8 +62,10 @@ body {
     color: white;
     cursor: pointer;
     font-size: 1.1em;
+    width: 100%; /* Esto hace que el botón ocupe todo el ancho disponible */
 }
 
+/* Efecto hover en el botón */
 .login-form button:hover {
     background-color: #0056b3;
 }
