@@ -21,9 +21,10 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 2.5); /* Ajusta la opacidad (0.5 = 50%) */
-    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.6); /* Ajusta la opacidad (0.6 = 60%) */
+    z-index: 1; /* Ponlo delante */
 }
+
 
 /* Contenedor principal */
 .container {
