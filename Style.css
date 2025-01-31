@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('https://github.com/sajari4510/Gym/blob/main/Fondo%20GYM.jpg?raw=true'); /* Cambia esta URL por la de tu imagen */
+    background-image: url('https://raw.githubusercontent.com/sajari4510/Gym/main/Fondo%20GYM.jpg'); /* Cambia esta URL por la de tu imagen */
     background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
     background-position: center; /* Centra la imagen en la pantalla */
     color: white;
