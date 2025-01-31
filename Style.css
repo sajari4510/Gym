@@ -6,7 +6,7 @@ body {
     background-image: url('https://raw.githubusercontent.com/sajari4510/Gym/main/FondoGYM.jpg');
     background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
     background-position: center; /* Centra la imagen en la pantalla */
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ body::before {
     border: 1px solid #fff;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
-    color: white;
+    color: black;
 }
 
 .login-form button {
