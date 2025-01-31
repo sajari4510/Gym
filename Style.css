@@ -82,6 +82,20 @@ body::before {
 .login-form button:hover {
     background-color: #0056b3;
 }
+#cuestionarioBtn {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Color azul para el botón */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px; /* Esto mueve el botón hacia abajo */
+    display: block; /* Hace que el botón ocupe toda la línea */
+}
+#cuestionarioBtn:hover {
+    background-color: #0056b3;
+}
 
 /* Mensaje de error */
 .error-message {
