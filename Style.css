@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #000;
+    background-image: url('https://github.com/sajari4510/Gym/blob/34c28a07b63e0fc74609dbd8414bb8b364f5a2fd/Fondo%20GYM.jpg');
     color: white;
     display: flex;
     justify-content: center;
