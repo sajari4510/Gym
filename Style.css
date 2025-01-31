@@ -40,7 +40,7 @@ body::before {
 
 /* Estilos del formulario de login */
 .login-form {
-    background-color: rgba(255, 255, 255, 0.5); /* cambie esta vara*/
+    background-color: rgba(255, 255, 255, 0.7); /* cambie esta vara*/
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
