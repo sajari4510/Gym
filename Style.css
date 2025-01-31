@@ -12,8 +12,10 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    position: relative; /* Asegura que el ::before esté posicionado correctamente */
 }
 
+/* Capa oscura sobre la imagen */
 body::before {
     content: ""; /* Necesario para generar un pseudo-elemento */
     position: absolute; /* Posicionamos la capa sobre el body */
@@ -24,6 +26,7 @@ body::before {
     background-color: rgba(0, 0, 0, 0.5); /* Capa oscura con opacidad del 50% */
     z-index: -1; /* Coloca la capa debajo del contenido */
 }
+
 /* Contenedor principal */
 .container {
     text-align: center;
