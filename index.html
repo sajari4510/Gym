@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Login</title>
+    <title>Página con Fondo Negro y Login</title>
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <div class="container">
-        <!-- Título o encabezado -->
-        <h1 class="title">Bienvenido a GON VAL FIT</h1>
+        <h1 class="title">Bienvenido a GYM VAL FIT</h1>
         
-        <!-- Formulario de login -->
         <div class="login-form">
             <h2>Iniciar sesión</h2>
-            <form>
+            <form id="loginForm">
                 <label for="username">Usuario:</label>
                 <input type="text" id="username" name="username" required>
 
@@ -23,8 +21,10 @@
 
                 <button type="submit">Entrar</button>
             </form>
+            <p id="error-message" class="error-message"></p>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
